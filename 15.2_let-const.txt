@@ -1,0 +1,17 @@
+const PI = 3.14;
+
+***QUIZ***
+
+- What is the difference between var and let?
+    > var is function scope & can access a hoisted variable, let is block scope
+    > let cannot be redeclaired; var can be redeclaired
+
+- What is the difference between var and const?
+    > var is function scope & can access a hoisted variable, const is block
+    > var can both be reassigned or redeclared, you cannot do either with const
+
+- What is the difference between let and const?
+    > With let can reassign variables and with const you cannot. 
+
+- What is hoisting?
+    > When variables are listed to the top of the scope they are declared in. If var is used in global scope lower in the codebase, you can still access it on line 1 as long as it is in the same scope. 
